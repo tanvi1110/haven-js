@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Istok Web', sans-serif; */
+    /* font-weight: 100;
+    font-style: normal; */
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+#main{
+    padding: 2vw 8vw;
+}
+#navdiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#shops, #garden, #likes, #market ,#blogs {
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+#nav1{
+    /* width: 50%; */
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+#nav2 img{
+    object-fit:contain;
+    height: 150px;
+    width: 150px;
+}
+#nav3{
+    gap: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#navdiv{
+    font-family: "Istok Web", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+#hero{
+    margin-top: 14vw;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+#right{
+    width: 60%;
+    position: relative;
+}
+#heading{
+    font-family: "Italiana", sans-serif;
+    width: 100%;
+   
+}
+#heading h1{
+    font-weight: 100;
+    font-size: 89px;
+    line-height: 5vw;
+    width: 90vw;
+    position: absolute;
+    top: -8vw;
+    left: -13vw;
+
+}
+#para{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 7vw;
+    line-height: 1.6;
+    width: 90%;
+
+}
+#left img{
+   object-fit: cover;
+   height: 350px;
+   width: 540px;
+}
+
+#para{
+    font-family:  "Istok Web", sans-serif;
+}
+
+#btn-visit{
+    width: 25%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#icon-visit{
+    height: 50px;
+    width: 50px;
+    border-radius:50% ;
+    border: 1px solid rgb(110, 110, 110);
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#txt-visit{
+    color: rgb(94, 94, 94);
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>  cards1 */
+
+
+#cards1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7vw;
+
+}
+#card1-left{
+    /* width: 50%; */
+    width: 45%;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    gap: 20px;
+    position: relative;
+}
+#card1-txt{
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 96%;
+    /* width: 90%; */
+    color: #373737;
+
+}
+#sign{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    display: flex;
+    flex-direction:column-reverse;
+    position: absolute;
+    right: 8vw;
+}
+#card1-right{
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+#img1{
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
+    /* position: absolute; */
+    /* right: 0; */
+}
+#img2{
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 4vw;
+}
+#img3{
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+    right: 4vw;
+    top: 3vw;
+    transform: rotate(-12deg);
+}
+#cards2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15vw;
+    gap: 4vw;
+}
+
+#card2-left {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative; /* Add relative positioning */
+}
+
+#motive {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 300;
+    white-space: nowrap;
+    transform: rotate(-90deg);
+    font-size: 29px;
+    line-height: 96%;
+    color: #373737;
+    position: absolute; /* Position absolutely within #card2-left */
+    left: -8%; /* Adjust as needed */
+    top: 77%; /* Adjust as needed */
+    transform: translateY(-50%) rotate(-90deg); /* Center vertically and rotate */
+}
+
+#imgdiv{
+    margin-left: 5vw;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: end;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+#cimg1{
+    width: 280px;
+    height: 312px;
+    object-fit: cover;
+}
+
+#cimg2{
+    width: 203px;
+    height: 217px;
+    object-fit: cover;
+}
+#cimg3{
+    width: 320px;
+    height: 422px;
+    object-fit: cover;
+}
+#card2-right{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    margin-top: 18vw;
+
+}
+#card2txt{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 168%;
+    color: #373737;
+    width: 90%;
+}
+#cards3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15vw;
+    gap: 4vw;
+}
+#card3-left{
+    width: 30%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+
+}
+#c3txt{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 168%;
+    color: #373737;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
+#card3-right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: space-between;
+    position: relative;
+    gap: 2vw;
+    
+
+}
+#c3heading{
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 300;
+    white-space: nowrap;
+    font-size: 29px;
+    line-height: 96%;
+    color: #373737;
+}
+#c3img1{
+    height: 392px;
+    width: 800px;
+    object-fit: cover;
+}
+#cards4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+
+}
+
+#c4txt{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    /* line-height: 168%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #373737;
+    width: 90%;
+    /* margin-top: 10vw; */
+}
+#rect{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 15vw;
+    gap: 4vw; */
+}

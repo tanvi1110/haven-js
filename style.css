@@ -285,13 +285,13 @@ body, html {
 }
 #card3-left{
     width: 30%;
-    min-height: 400px;
+    /* min-height: 400px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    bottom: 0;
+    /* position: relative; */
+    /* bottom: 0; */
 
 }
 #c3txt{
@@ -300,8 +300,8 @@ body, html {
     font-size: 14px;
     line-height: 168%;
     color: #373737;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     width: 90%;
 }
 #card3-right{
@@ -312,47 +312,73 @@ body, html {
     align-items:end;
     justify-content: space-between;
     position: relative;
-    gap: 2vw;
+    gap: 2vw;    
+    text-align: right;
     
 
 }
 #c3heading{
     font-family: "Julius Sans One", sans-serif;
-    font-weight: 300;
+    font-weight: 300; 
     white-space: nowrap;
     font-size: 29px;
     line-height: 96%;
+
     color: #373737;
 }
-#c3img1{
-    height: 392px;
+#c3div{
     width: 800px;
+    height: 50vh;
+    background-color: red;
+}
+#c3img1{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
+    object-position: 0% 40%;
 }
 #cards4{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    margin-top: 20vw;
-    margin-bottom: 20vw;
+    position: relative;
+    margin-top: 15vw;
+    background-color: white;
+    overflow: hidden;
 
+}
+#cards4 video{
+    /* opacity: .1; */
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    
+
+}
+#txt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 111;
 }
 
 #c4txt{
     font-family: "Istok Web", sans-serif;
     font-weight: 300;
     font-size: 14px;
-    /* line-height: 168%; */
+  
     display: flex;
     align-items: center;
     justify-content: center;
     color: #373737;
     width: 90%;
-    /* margin-top: 10vw; */
+  
 }
 #rect{
     width: 200px;

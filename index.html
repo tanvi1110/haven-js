@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,16 +21,16 @@
     <div id="main">
       <div id="navdiv">
         <div id="nav1">
-          <h4 id="shops">Shops</h4>
-          <h4 id="garden">Garden</h4>
+          <h4 class="nlink" id="shops">Shops</h4>
+          <h4 class="nlink" id="garden">Garden</h4>
         </div>
         <div id="nav2">
-          <img src="/images/logo haven 3.png" />
+          <img class="nlink" src="/images/logo haven 3.png" />
         </div>
         <div id="nav3">
-          <h4 id="likes">Likes</h4>
-          <h4 id="market">Market</h4>
-          <h4 id="blogs">Blogs</h4>
+          <h4 class="nlink" id="likes">Likes</h4>
+          <h4 class="nlink" id="market">Market</h4>
+          <h4 class="nlink" id="blogs">Blogs</h4>
         </div>
       </div>
       <div id="hero">
@@ -104,18 +105,23 @@
         </div>
         <div id="card3-right">
           <p id="c3heading">Benevelot</p>
-          <img id="c3img1" src="/images/img6.jpg" />
+          <div id="c3div">
+            <img id="c3img1" src="/images/img6.jpg" />
+          </div>
         </div>
       </div>
       <div id="cards4">
-        <p id="c4txt">
-          Every piece of furniture, color choice,
-        </p>
-        <div id="rect">
-          <p id="hovertxt">Hover me please!</p>
+        <video src="/videos/video.mp4" autoplay muted loop></video>
+        <div id="txt">
+          <p id="c4txt">Every piece of furniture, color choice,</p>
+          <div id="rect">
+            <p id="hovertxt">Hover me please!</p>
+          </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="index.js"></script>
 </html>
